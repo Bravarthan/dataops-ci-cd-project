@@ -63,6 +63,13 @@ dataops-ci-cd-project/
 ├── terraform/
 │   └── main.tf
 │
+├── screenshots/
+│   ├── docker-run-output.png
+│   ├── etl-pipeline-running.png
+│   ├── github-actions-success.png
+│   ├── pytest-success.png
+│   └── terraform-apply-success.png
+│
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
@@ -105,6 +112,25 @@ cd terraform
 terraform init
 terraform apply
 ```
+
+---
+
+## 🖼️ Screenshots
+
+### ETL Pipeline Running
+![ETL Pipeline Running](screenshots/etl-pipeline-running.png)
+
+### Pytest Successful Output
+![Pytest Successful Output](screenshots/pytest-success.png)
+
+### GitHub Actions Success
+![GitHub Actions Success](screenshots/github-actions-success.png)
+
+### Docker Run Output
+![Docker Run Output](screenshots/docker-run-output.png)
+
+### Terraform Apply Success
+![Terraform Apply Success](screenshots/terraform-apply-success.png)
 
 ---
 
